@@ -1,0 +1,1 @@
+[![🧪 CI/CD](https://github.com/kpi-web-guild/django-girls-blog-Martolivna/actions/workflows/ci.yml/badge.svg)](https://github.com/kpi-web-guild/django-girls-blog-Martolivna/actions/workflows/ci.yml?query=branch%3Amain)
