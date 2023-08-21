@@ -6,13 +6,24 @@ This is my educational project within IT KPI Python mentorship program by @webkn
 
 ## Installation
 
-Soon
+1. Clone this repository:
+    ```console
+    $ git clone git@github.com:kpi-web-guild/django-girls-blog-Martolivna.git
+    ```
 
+2. Install requirements:
+    ```console
+    $ pip install -r requirements/base.in -c requirements/base.txt
+    ```
 
 
 ## Usage
 
-Soon
+Start the server:
+   ```console
+   $ python manage.py runserver
+   ```
+
 
 ## Contributing
 
