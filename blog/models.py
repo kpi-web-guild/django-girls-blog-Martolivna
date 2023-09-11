@@ -6,7 +6,7 @@ from django.utils import timezone
 
 
 class Post(models.Model):
-    """A class to represent a post."""
+    """A blog post model."""
 
     author = models.ForeignKey(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
@@ -17,10 +17,10 @@ class Post(models.Model):
     published_date = models.DateTimeField(blank=True, null=True)
 
     def publish(self):
-        """Save the post entry."""
+        """Mark the post published."""
         self.published_date = timezone.now
         self.save()
 
     def __str__(self):
-        """Return the post title."""
+        """Render a Post representation as a string."""
         return str(self.title)
