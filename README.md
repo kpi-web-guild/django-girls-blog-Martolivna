@@ -13,7 +13,7 @@ This is my educational project within IT KPI Python mentorship program by @webkn
 
 2. Install requirements:
     ```console
-    $ pip install -r requirements/base.in -c requirements/base.txt
+    $ pip install -r requirements/base.txt -r requirements/dev.txt
     ```
 
 
